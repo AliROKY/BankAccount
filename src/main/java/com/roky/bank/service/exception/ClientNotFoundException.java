@@ -1,0 +1,14 @@
+package com.roky.bank.service.exception;
+
+public class ClientNotFoundException extends Exception{
+  
+  /**
+   * 
+   */
+  private static final long serialVersionUID = 1L;
+
+  public ClientNotFoundException(String message) {
+    super(message);
+  }
+
+}
